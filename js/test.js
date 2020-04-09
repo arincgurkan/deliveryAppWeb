@@ -107,7 +107,7 @@ dbRefObject
             entries[i][1]["orderNote"]
           );
           var totalAmountText = document.createTextNode(
-            entries[i][1]["totalAmount"]
+            entries[i][1]["totalAmount"] + "€"
           );
 
           dateTime.appendChild(dateTimeText);
